@@ -1,0 +1,409 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+body{font-family: 'Quicksand', sans-serif;}
+
+/* header */
+.container{
+    max-width: 1200px;
+}
+header #menu {
+    position: fixed;
+    width: 100%;
+    margin-top: -13%;
+    z-index: 100;
+    
+}
+
+ header #menu .superior{
+    width: 100%;
+    background: #ffffff;
+}
+header #menu .superior .container{
+    text-align: right;
+}
+header #menu .superior .container img{
+    width: 3%;
+    height: 5%;
+    margin-bottom: 7px;
+}
+header #menu .superior .container h5,h6{
+    color: rgb(0, 132, 255);
+    display: inline-block;
+    font-size: 15px;
+}
+header #menu .medio{
+    background-color: red;
+}
+header #menu .medio .container img{
+    width: 5%;
+}
+header #menu .medio .container .navbar{
+    width: 55%;
+    background: transparent;
+    display: inline-block;
+    margin-left: 7%;
+}
+header .form-inline{
+    background-color: #ffffff;
+}
+header .form-inline .form-control{
+    width: 94%;
+    margin-right: 0px;
+    border: none;
+}
+header .form-inline button{
+    border: none;
+    background: rgb(0, 102, 255);
+    width: 5%;
+}
+header #menu .medio .container .form-inline button img{
+    background-size: cover;
+    width: 15px;
+}
+header #menu .medio .container .pedidos{
+    width: 20%;
+    display: inline-block;
+    margin-left: 15px;
+}
+header #menu .medio .container .pedidos .row .col-md-6 img{
+    width: 25%;
+}
+header #menu .medio .container .pedidos .row .col-md-6 p{
+    font-size: 15px;
+    margin: 0px;
+    color: #ffffff;
+}
+header #menu .servi {
+    width: 100%;
+    background: #ffffff;
+}
+header #menu .servi .navbar-expand-lg .navbar-nav{
+    margin: auto;
+    width: 80%;
+}
+header #menu .servi .navbar-expand-lg .navbar-nav .row{
+    width: 100%;
+}
+header #menu .servi .navbar-expand-lg .navbar-nav .row .col-md-3 .nav-item img{
+    width: 15%;
+}
+header #menu .servi .navbar-expand-lg .navbar-nav .row .col-md-3 .nav-item a{
+    width: 69%;
+    display: inline-block;
+    font-size: 15px;
+}
+header .hero{
+    width: 100%;
+    margin-top: 13%;
+
+}
+header .medio a{
+    display: none;
+}
+.navbar-light .navbar-toggler {
+    position: absolute;
+    top: -266%;
+    right: 69%;
+    border: 1px solid #ffffff;
+   
+}
+
+/* catalogo */
+#catalogo{
+    margin: 15px 0px;
+}
+#catalogo .container{
+    background: rgb(238, 237, 237);
+    padding: 10px 10px;
+}
+#catalogo .container .row{
+    flex-wrap: nowrap;
+}
+#catalogo .container .row .col-md-3 img{
+    width: 20%;
+}
+#catalogo .container .row .col-md-3 h5{
+    /* display: inline-block; */
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+/* celulares */
+#celulares{
+    margin: 15px 0px;
+}
+#celulares .container h3{
+    margin: 10px 5px;
+    display: inline-block;
+}
+#celulares .container .row .col-md-6 img{
+    max-width: 100%;
+    margin: 10px;
+}
+#celulares .container .row .col-md-3 img{
+    max-width: 100%;
+    margin: 10px;
+}
+#celulares .container .row .col-md-3 a:hover{
+    opacity: .75;
+}
+#celulares .container .row .col-md-6 a:hover{
+    opacity: .75;
+}
+/* tecnologia*/
+#tecnologia{
+    margin: 15px 0px;
+}
+#tecnologia .container h3{
+    margin: 10px 5px;
+    display: inline-block;
+}
+#tecnologia .container .row{
+    max-width: 100%;
+    margin: auto;
+}
+#tecnologia .container .row .col-md-6 img{
+    max-width: 100%;
+    margin: 10px;
+}
+#tecnologia .container .row .col-md-6 a:hover{
+    opacity: .75;
+}
+/* planes */
+#planes{
+    margin: 15px 0px;
+}
+#planes .container h3{
+    margin: 10px 5px;
+    display: inline-block;
+}
+ #planes .container img{
+     max-width: 100%;
+ }
+/* sim */
+#sim{
+    width: 100%;
+    margin: 20px 0px;
+}
+
+#sim .container h3{
+    margin: 10px 5px;
+    display: inline-block;
+}
+#sim .container .row .col-md-6 img{
+    max-width: 100%;
+}
+#sim .container .row .col-md-3 img{
+    max-width: 100%;
+}
+#sim .container .row .col-md-3 a:hover{
+    opacity: .75;
+}
+#sim .container .row .col-md-6 a:hover{
+    opacity: .75;
+}
+
+/* recomendados */
+#recomendados{
+    margin: 10px 0px;
+}
+#recomendados .container h3{
+    margin: 10px 5px;
+    display: inline-block;
+}
+#recomendados .container a{
+    display: inline-block;
+    margin-left: 10px;
+}
+#recomendados .container .row{
+    margin: 10px 0px;
+}
+#recomendados .container .row .col-md-4{
+    text-align: center;
+}
+#recomendados .container .row .col-md-4 button{
+    padding: 5px 15px;
+    border-color: rgb(0, 132, 255);
+    border-radius: 5px;
+    color: rgb(0, 132, 255);
+    background: transparent;
+}
+#recomendados .container .row .col-md-12 img{
+    max-width: 100%;
+}
+#recomendados .container .row .col-md-3 a:hover{
+    opacity: .75;
+}
+
+
+/* marcas */
+#marcas {
+    margin: 30px 0px;
+}
+#marcas .container .slick-slider{
+    width: 70%;
+    margin: auto;
+}
+#marcas .container .tarjeta img {
+    width: 30%;
+    margin: auto;
+}
+#marcas .slick-prev.slick-disabled:before, .slick-next.slick-disabled:before{
+    color: red;
+    opacity: initial;
+}
+#marcas .slick-prev:before, .slick-next:before{
+    color: red;
+}
+
+
+
+
+
+/* footer */
+footer{
+    width: 100%;
+    position: absolute;
+    margin-bottom: 0%;
+    background: rgb(224, 219, 219);
+    padding: 15px 5px 0px 5px;
+}
+footer .personas .container h3,h4{
+    font-size: 15px;
+}
+footer .personas h3{
+    background: rgb(179, 174, 174);
+    padding: 5px;
+}
+footer .personas .container .row p{
+    color: #000000;
+    font-size: 12px;
+    margin: 3px 2px;
+}
+footer .personas .container .row img{
+    width: 15%;
+}
+footer .personas .container .row .col-md-12{
+    margin-bottom: 10px;
+}
+footer .personas .container .row .col-md-12 img{
+ width: 3%;
+}
+footer .personas .reservados {
+background: #000000;
+}
+footer .personas .reservados .container .row .col-md-9 img{
+    width: 5%;
+}
+footer .personas .reservados .container .row .col-md-9 p{
+    color: #ffffff;
+    display: inline-block;
+}
+
+
+
+
+/* RESPONSIVE TELEFONO */
+@media (max-width: 787px) {
+    #container {
+        position: fixed;
+        background: #FFF;
+        border-radius: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        margin: 0;
+        padding: 12px 0 0;
+        text-align: center;
+        z-index: 2;
+
+    }
+    
+    #catalogo .row{
+        margin-top: 22px;
+        font-size: 14px;
+        text-align: center;
+
+
+    }
+    #catalogo .row h5{
+        display: none;
+    }
+    #catalogo .container .row .col-md-3 img{
+        width: 59%;
+        margin-left: 20px;
+        text-align: center;
+    }
+    #catalogo p{
+        font-size: 9px;
+        margin-left: 20px;
+    }
+    #catalogo .container .row .col-md-3{
+        text-align: center;
+        margin-right: 0px;
+    }
+    header .form-inline .form-control{
+        display: none;
+    }
+
+    header #menu .superior .container img {
+        width: 8%;
+    }
+    header .form-inline {
+        display: none;
+
+    }
+    header #menu .medio .container img {
+        width: 12%;
+        text-align: center;
+    }
+    header .medio a{
+        display: block;
+        margin-left: 135%;
+        width: 98%;
+       
+    }
+    header #menu .medio .container .pedidos{
+        display: none;
+        
+    }
+    .navbar-light .navbar-toggler {
+        position: absolute;
+        top: -266%;
+        right: 69%;
+        border: 1px solid #ffffff;
+        
+    }
+    header #menu .servi .navbar-expand-lg .navbar-nav .row .col-md-3 .nav-item img{
+        width: 9%;
+    }
+    
+    header .hero {
+        width: 100%;
+        margin-top: 28%;
+        padding: 14px 0px;
+    }
+
+    header #menu {
+        position: fixed;
+        width: 100%;
+        margin-top: -27%;
+        z-index: 100;
+    }
+    
+
+    #sim .container .row .col-md-3 img{
+      margin: 10px 0px;
+      width: 100%;  
+    } 
+    #celulares .container .row .col-md-3 {
+        text-align: center;
+    }
+    footer{
+        margin-bottom: 22vh;
+    }
+
+    
+
+    
+}
